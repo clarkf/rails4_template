@@ -1,6 +1,7 @@
 GIT
   remote: git://github.com/sporkrb/spork-rails.git
   revision: 3224f84d8c31fcb0894e9a43f6c3ac67e3aa0d71
+  ref: 3224f84d8c31fcb0894e9a43f6c3ac67e3aa0d71
   specs:
     spork-rails (3.2.1)
       rails (>= 3.0.0, < 5)
@@ -9,6 +10,7 @@ GIT
 GIT
   remote: git://github.com/sporkrb/spork.git
   revision: 38ab44f0968c23509912680a04f903fe4ad5c068
+  ref: 38ab44f0968c23509912680a04f903fe4ad5c068
   specs:
     spork (1.0.0rc3)
 
@@ -212,8 +214,8 @@ DEPENDENCIES
   rspec-rails (~> 2.14.0)
   sdoc
   slim-rails (~> 2.0.1)
-  spork (~> 1.0rc0)!
-  spork-rails (~> 3.2.1)!
+  spork!
+  spork-rails!
   sqlite3
   therubyracer
   thin (~> 1.5.1)

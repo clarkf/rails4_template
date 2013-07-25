@@ -43,8 +43,10 @@ group :test do
 	# Use rspec for testing
 	gem "rspec-rails", "~> 2.14.0"
 
-	gem "spork-rails", "~> 3.2.1", github: "sporkrb/spork-rails"
-	gem "spork", "~>1.0rc0", github: "sporkrb/spork"
+	# Spork support for Rails 4 is not yet released.
+	# Please see https://github.com/sporkrb/spork/issues/223
+	gem "spork-rails", github: "sporkrb/spork-rails", ref: "3224f84d8c31fcb0894e9a43f6c3ac67e3aa0d71"
+	gem "spork", github: "sporkrb/spork", ref: "38ab44f0968c23509912680a04f903fe4ad5c068"
 
 	# Use guards to automate testing
 	gem "guard-rails", "~> 0.4.7"
