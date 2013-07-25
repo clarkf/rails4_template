@@ -43,6 +43,9 @@ group :test do
 	# Use rspec for testing
 	gem "rspec-rails", "~> 2.14.0"
 
+	gem "spork-rails", "~> 3.2.1", github: "sporkrb/spork-rails"
+	gem "spork", "~>1.0rc0", github: "sporkrb/spork"
+
 	# Use guards to automate testing
 	gem "guard-rails", "~> 0.4.7"
 	gem "guard-rspec", "~> 3.0.2"
